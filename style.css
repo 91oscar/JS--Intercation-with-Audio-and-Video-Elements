@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-color: #e4e9f7;
+  --primary-color: #695cfe;
+  --text-color: #707070;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(pics/Palmera.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HEADER */
+
+/* main */
+
+section {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section > * {
+  margin: 10px;
+}
+.main__title {
+  color: var(--primary-color);
+}
+
+.main__paragraph {
+  color: var(--text-color);
+}
+
+button {
+  font-weight: inherit;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  box-shadow: 3px 3px 10px rgb(0, 0, 0);
+  color: #7266fd;
+  border: none;
+  position: relative;
+}
+
+button:hover {
+  background: white;
+  transition: 0.5s;
+}
+
+button:active {
+  top: 1.5px;
+}
+/* FOOTER */
+
+.footer__containear {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.footer__paragraph {
+  color: black;
+  font-weight: bold;
+}
